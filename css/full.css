@@ -1,0 +1,175 @@
+/*!
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+ 
+
+@media (min-width: 1400px) {
+  #info {
+    /* margin-top:25%; */
+  }
+}
+
+/* @media (max-width:1200px){
+  #info{
+    margin-top:-4%;
+  }
+} */
+
+body {
+  background: url("../img/bg_run.jpg") center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position-y: 5%;
+  font-family: 'Rubik', sans-serif!important;
+}
+
+.wrapper{
+      max-width: 1300px;
+    position: static;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+.content {
+  /* margin-top: 130px; */
+}
+#info {
+  font-size: 18px;
+  color: white;
+}
+#nomor {
+  margin-top: 10px;
+  font-size: 120px;
+  color: white;
+}
+#button {
+  margin-top: 60px;
+}
+
+#stop {
+  margin-top: -7%;
+}
+
+#start {
+  margin-top: -7%;
+}
+
+#reset {
+  margin-top: -7%;
+}
+
+.btn {
+  width: 200px;
+}
+label {
+  color: white;
+}
+
+#confeti {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#confeti {
+  opacity: 1;
+}
+
+.congrats {
+  transition: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.175, 1, 0.5, 1.275);
+  transform: rotate(0deg);
+}
+
+.pemenang {
+  /* padding: 12px 24px; */
+  margin: 12px 24px;
+  /* border-radius: 20px; */
+  /* box-shadow: 0 10px 30px rgb(0 0 0 / 10%); */
+}
+
+.nama_penerima {
+  /* background-color: #53a5e4; */
+  color: white !important;
+  /* border-radius: 20% 20% 0% 0%; */
+  /* margin: 12px 24px; */
+  padding: 12px 24px;
+  /* margin-top:2rem; */
+  font-size:32px!important;
+  font-weight:1300!important;
+  color: #FAFD16!important;
+text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.80)!important;
+
+}
+
+.nama_divisi {
+  /* background-color: white; */
+  color: white !important;
+  /* border-radius: 0% 0% 20% 20%; */
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  /* margin: 12px 24px; */
+  padding: 12px 24px;
+  font-weight:800!important;
+  font-size:24px!important;
+
+}
+
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.card-number{
+  position: absolute;
+  margin-top:-0.5rem;
+  margin-left:-7.5rem;
+  z-index:-1;
+}
+
+.card-winner{
+  position: absolute;
+  margin-top:-0.5rem;
+  margin-left:-8.5rem;
+  z-index:-1;
+}
+
+.badge-congrats{
+  position: absolute;
+  margin-top:-2rem;
+  /* margin-left:-rem; */
+  z-index:-1;
+  width:63%
+}
+
+.congrats-text{
+  color:white!important;
+  font-weight:bolder;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.90)!important;
+  -webkit-text-stroke-color: 5px #949494!important;
+}
+
+.who-text{
+  color:white!important;
+  font-weight:bolder;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.90)!important;
+  -webkit-text-stroke-color: 5px #949494!important;
+}
+
+
+.badge-who{
+  position: absolute;
+  margin-top:-2rem;
+  margin-left:-8rem;
+  z-index:-1;
+  width:63%;
+}
